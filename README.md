@@ -14,7 +14,7 @@ Realtime Object Detector
 2.  克隆项目到本地：
     
     ```bash
-    git clone https://github.com/Junze0127/Realtime-Object-Detector.git
+    git clone https://github.com/DongJunze/Realtime-Object-Detector.git
     ```
     
 3.  进入项目目录：
