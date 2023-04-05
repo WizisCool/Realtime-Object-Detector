@@ -18,7 +18,7 @@ while True:
     edges = cv2.Canny(gray, 50, 150)
 
     # 对边缘进行形态学操作，平滑边缘
-    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))git push -u origin master
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
 
     edges = cv2.morphologyEx(edges, cv2.MORPH_CLOSE, kernel)
 
